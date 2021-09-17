@@ -604,7 +604,7 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                     },
                     "type": "RESPONSE"
                 }]
-                xinz.sendButtonsLoc(from, `Hai Kak @${sender.split('@')[0]}\n\nSaya ChikaBot, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, qqppp, fs.readFileSync(setting.pathImg), [sender])
+                xinz.sendButtonsLoc(from, `Hai Kak @${sender.split('@')[0]}\n\nSaya CenzoBot, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, qqppp, fs.readFileSync(setting.pathImg), [sender])
                 }
                 break
              case prefix+'allmenu':{
@@ -633,7 +633,7 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                     let list = []
                     let listmenu = [`groupmenu`,`menupremi`,`textmenu`,`imagemaker`,`kerangmenu`,`praymenu`,`ownermenu`,`funmenu`,`mediamenu`,`weebsmenu`,`downloader`,`stickermenu`,`primbonmenu`,`levelingmenu`,`about`,`18`,`owner`,`sewabot`]
                     let listmenuu = [`Menu Group`,`Premium Menu`,`TextMaker`,`Image Effect`,`Kerang Menu`,`PrayMenu`,`Owner Command`,`Fun Features`,`Misc and Media`,`Weebs Zone`,`Downloader`,`Sticker Editing`,`Primbon`,`Leveling Xp and Balance`,`About Bot`,`Nsfw Command`,`OwnerBot`,`Rent this Bot`]
-                    let listmenuuu = [`List Fitur Khusus Admin-Group`,`Hanya bisa dipakai oleh User-Premium`,`List Menu TextMaker`,`Edit Gambarmu menjadi efek yang keren`,`Random Jawaban bot kaka, masa ga tau, ga pernah nonton Spongebob ya?`, `Fitur keagamaan, harap Jangan diPermainkan, ayo kita tingkatkan toleransi 😍😍`,`Ini Cuman Untuk Ownerku`,`Fitur bot yg bisa dipake buat happy-an`,`Butuh Info atau Media, Klik disini`,`Zona Wibu-Only, BaKaa >/\/\<`,`Ingin download Sesuatu?`,`Bikin Sticker dan lainnya kaka`,`Ramalan Primbon buat kamu yg percaya ramalan xixi`,`Tingkatkan xp mu ya beb🥰🥰`,`Fitur ini menampilkan command" lengkap tentang bot`,`Only for 18+ madafaka`,`Kalo mau tau Ownerku, bisa klik ini kok`,`Mau sewaBot kak? info lebih lanjut, Klik ini`]
+                    let listmenuuu = [`List Fitur Khusus Admin-Group`,`Hanya bisa dipakai oleh User-Premium`,`List Menu TextMaker`,`Edit Gambarmu menjadi efek yang keren`,`Random Jawaban bot kaka, masa ga tau, ga pernah nonton Spongebob ya?`, `Fitur keagamaan, harap Jangan diPermainkan, ayo kita tingkatkan toleransi`,`Ini Cuman Untuk Ownerku`,`Fitur bot yg bisa dipake buat happy-an`,`Butuh Info atau Media, Klik disini`,`Zona Wibu-Only, BaKaa >/\/\<`,`Ingin download Sesuatu?`,`Bikin Sticker dan lainnya kaka`,`Ramalan Primbon buat kamu yg percaya ramalan xixi`,`Tingkatkan xp mu ya`,`Fitur ini menampilkan command" lengkap tentang bot`,`Only for 18+ madafaka`,`Kalo mau tau Ownerku, bisa klik ini kok`,`Mau sewaBot kak? info lebih lanjut, Klik ini`]
                     let nombor = 1
                     let startnum = 0
                     let startnumm = 0
@@ -649,7 +649,7 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                    }
                         list.push(yy)
                     }
-                    xinz.sendList(from, `Selamat ${ucap}`, `Hai kak @${sender.split('@')[0]}, pilih Menu ChikaBot disini`, `Jangan lupa Donasi ya Kak`,`Pilih Disini`, list, msg, [sender])
+                    xinz.sendList(from, `Selamat ${ucap}`, `Hai kak @${sender.split('@')[0]}, pilih Menu CenzoBot disini`, `Jangan lupa Donasi ya Kak`,`Pilih Disini`, list, msg, [sender])
                 })
             }
                 break
@@ -3692,7 +3692,7 @@ Alert!!! : ${res.desc}`))
                 }
                 break
             case prefix+'sourcecode': case prefix+'sc': case prefix+'src':
-                textImg(`Bot ini menggunakan sc : https://github.com/rashidsiregar28/chika-bot`)
+                textImg(`Bot ini menggunakan sc : https://github.com/cenzoW/cenzobot`)
                 break
             case prefix+'donate':
             case prefix+'donasi':
