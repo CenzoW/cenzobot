@@ -2152,7 +2152,7 @@ exports.tos = (ownerNumber, prefix) => {
 *── 「 DONATE 」 ──*
 
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-0858776078 (OVO/Telkomsel/GoPay)
+085877607899 (OVO/Telkomsel/GoPay)
 
 
 Terima kasih!
