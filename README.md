@@ -4,7 +4,7 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="CHIKA BOT" src="https://img.shields.io/badge/CHIKA BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Cenzo bot" src="https://img.shields.io/badge/CHIKA BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/rashidsiregar28/chika-bot"><img title="Author" src="https://img.shields.io/badge/Author-rashidsiregar28-red.svg?style=for-the-badge&logo=github"></a>
@@ -35,16 +35,16 @@
 
 ---
 
-# Chika-Bot
+# Cenzo-bot
 ## Information
-> ChikaBot ialah recode base dari [Xinz-bot](https://github.com/xinz-team/xinzBot)
+> ChikaBot ialah recode base dari [Xinz-bot]dan chika-bot(https://github.com/xinz-team/xinzBot)
 >
 >
 
 ## Bugs and Tester
 * Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [owner-chika](https://wa.me/628127668234)
-* Kamu bisa testing fitur Chika-Bot [disini](https://wa.me/6289513435428?text=.menu)
+* Info Lebih Lanjut, Chat [owner-chika](https://wa.me/6285877607899)
+* Kamu bisa testing fitur Cenzo-Bot [disini](https://wa.me/6285877607899?text=.menu)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -120,3 +120,4 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 * [`SlavyanDesu`](https://github.com/SlavyanDesu)
 * [`VideFrelan`](https://github.com/VideFrelan)
 * [`TobyG74`](https://github.com/TobyG74)
+* [`Cenzo`](https://gihub.com/CenzoW
